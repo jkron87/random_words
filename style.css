@@ -1,0 +1,128 @@
+body {
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: darkslategray;
+}
+
+h1 {
+  font-family: 'Bree Serif', serif;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  display: inline;
+}
+
+li:after {
+  content: " ";
+}
+
+/************* buttons **************/
+
+.center {
+  margin: 20px 50px;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  padding: 15px;
+  margin-right: 5px;
+  height: 50px;
+  min-width: 100px;
+  background: #348AA7;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 3px;
+  box-shadow: 0 5px 0 #348aa7;
+  border-bottom: 2px solid #30809b;
+}
+button:hover {
+  background: #2e7a94;
+  box-shadow: 0 4px 1px #2e7a94;
+  border-bottom: 2px solid #2a7088;
+  transition: all 0.1s ease-in;
+}
+button:active {
+  transform: translateY(4px);
+  border-bottom-width: 2px;
+  box-shadow: none;
+}
+
+/************* where words appear **************/
+.canvas {
+  border: 7px solid silver;
+  min-height: 300px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0 0 20px 1px #bbb;
+}
+
+/************* random classes **************/
+.one {
+  color: #801638;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+}
+.two {
+  color: #DC5C05;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1em;
+}
+
+.three {
+  color: #FFAC00;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1em;
+}
+
+.four {
+  color: #6EC5B8;
+  font-family: 'Galada', cursive;
+  font-size: 2em;
+}
+
+.five {
+  color: #FF9000;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2em;
+}
+
+.six {
+  color: #978B7D;
+  font-family: 'Bevan', cursive;
+  font-size: 1em;
+
+}
+
+.seven {
+  color: #C22326;
+  font-family: 'Inconsolata', monospace;
+  font-size: 2em;
+}
+
+.eight {
+  color: #F37338;
+  font-family: 'Galada', cursive;
+  font-size: 1em;
+}
+
+.nine {
+  color: #027878;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2em;
+}
+
+.ten {
+  color: #801638;
+  font-family: 'Bevan', cursive;
+  font-size: 1em;
+}
